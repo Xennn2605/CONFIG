@@ -92,6 +92,7 @@ rule-providers:
   rule_wasapcuy:
     type: file
     behavior: classical
+    url: https://raw.githubusercontent.com/Xennn2605/CONFIG/refs/heads/main/rule_whatsapp.yaml
     path: "./rule_provider/rule_whatsapp.yaml"
   indo:
     type: file
