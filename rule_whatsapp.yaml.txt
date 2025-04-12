@@ -1,5 +1,4 @@
 payload:
-  - GEOSITE,whatsapp
   # Whatsapp
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,oculus.com
