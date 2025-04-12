@@ -1,4 +1,17 @@
 proxies:
+  - name: Jagoan¹ SSH
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: jagoanssh-14AprIiLl
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id1go.ipservers.xyz
+    udp: true
   - name: freevpn
     server: 104.18.3.2
     port: 443
@@ -8,15 +21,93 @@ proxies:
     sni: v2-sg-1.v2s.top
     network: ws
     ws-opts:
-      path: /anything/freevpn.us-20Or21April/trojan
+      path: /anything/freevpn.us-14ApriLlL/trojan
       headers:
         Host: v2-sg-1.v2s.top
     udp: true
-  - name: JagoanSSH¹
+  - name: Oracle Cloud SG
+    server: bakrie.ac.id
+    port: 443
+    type: trojan
+    password: 1f4b0db6-e653-47fc-8134-a68d18ca33d2
+    skip-cert-verify: true
+    sni: afrcloud.xyz
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/129.150.58.86/57621
+      headers:
+        Host: afrcloud.xyz
+    udp: true
+  - name: Digital SG
+    server: unnes.ac.id
+    port: 443
+    type: trojan
+    password: fd7c4716-39d2-444d-9452-fa7fe98f3c17
+    skip-cert-verify: true
+    sni: inconigto.biz.id
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/178.128.80.43/443
+      headers:
+        Host: inconigto.biz.id
+    udp: true
+  - name: Rumahweb ID
+    server: unnes.ac.id
+    port: 443
+    type: trojan
+    password: 6d768749-81b4-479e-876c-9874609f2a32
+    skip-cert-verify: true
+    sni: afrcloud.xyz
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/203.194.112.119/8443
+      headers:
+        Host: afrcloud.xyz
+    udp: true
+  - name: PT Telkom ID
+    server: unnes.ac.id
+    port: 443
+    type: trojan
+    password: 30224d01-d07b-4e1c-8442-b63950a769b7
+    skip-cert-verify: true
+    sni: afrcloud.xyz
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/36.95.152.58/12137
+      headers:
+        Host: afrcloud.xyz
+    udp: true
+  - name: Akamai ID
+    server: bakrie.ac.id
+    port: 443
+    type: trojan
+    password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    skip-cert-verify: true
+    sni: bakrie.ac.id.free.gegegeming.BIZ.id
+    network: ws
+    ws-opts:
+      path: /Free/TG-at-XionAlva/172.235.251.7-587
+      headers:
+        Host: bakrie.ac.id.free.gegegeming.BIZ.id
+    udp: true
+  - name: Jagoan² SSH
     server: 104.18.3.2
     port: 443
     type: trojan
-    password: jagoanssh-Biasasaja27
+    password: jagoanssh-Gssjjhh
+    skip-cert-verify: true
+    sni: id2go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id2go.ipservers.xyz
+    udp: true proxies:
+  - name: Jagoan¹ SSH
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: jagoanssh-14AprIiLl
     skip-cert-verify: true
     sni: id1go.ipservers.xyz
     network: ws
@@ -25,37 +116,89 @@ proxies:
       headers:
         Host: id1go.ipservers.xyz
     udp: true
-  - name: PT Pusat Media
+  - name: freevpn
     server: 104.18.3.2
     port: 443
     type: trojan
-    password: 552ae7a4-dc92-4088-8a6b-26baa13a1b2e
+    password: 7772bb24-976a-45ca-aa76-f4f1b7f50923
     skip-cert-verify: true
-    sni: inconigtovpn.web.id
+    sni: v2-sg-1.v2s.top
     network: ws
     ws-opts:
-      path: /t.me/Inconigto_Mode/103.6.207.108/8080
+      path: /anything/freevpn.us-14ApriLlL/trojan
       headers:
-        Host: inconigtovpn.web.id
+        Host: v2-sg-1.v2s.top
+    udp: true
+  - name: Oracle Cloud SG
+    server: bakrie.ac.id
+    port: 443
+    type: trojan
+    password: 1f4b0db6-e653-47fc-8134-a68d18ca33d2
+    skip-cert-verify: true
+    sni: afrcloud.xyz
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/129.150.58.86/57621
+      headers:
+        Host: afrcloud.xyz
+    udp: true
+  - name: Digital SG
+    server: unnes.ac.id
+    port: 443
+    type: trojan
+    password: fd7c4716-39d2-444d-9452-fa7fe98f3c17
+    skip-cert-verify: true
+    sni: inconigto.biz.id
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/178.128.80.43/443
+      headers:
+        Host: inconigto.biz.id
+    udp: true
+  - name: Rumahweb ID
+    server: unnes.ac.id
+    port: 443
+    type: trojan
+    password: 6d768749-81b4-479e-876c-9874609f2a32
+    skip-cert-verify: true
+    sni: afrcloud.xyz
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/203.194.112.119/8443
+      headers:
+        Host: afrcloud.xyz
+    udp: true
+  - name: PT Telkom ID
+    server: unnes.ac.id
+    port: 443
+    type: trojan
+    password: 30224d01-d07b-4e1c-8442-b63950a769b7
+    skip-cert-verify: true
+    sni: afrcloud.xyz
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/36.95.152.58/12137
+      headers:
+        Host: afrcloud.xyz
     udp: true
   - name: Akamai ID
-    server: 104.18.3.2
+    server: bakrie.ac.id
     port: 443
     type: trojan
-    password: 9fdbea70-c4ba-4c0e-85b5-6c59848bfd62
+    password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
     skip-cert-verify: true
-    sni: inconigtovpn.web.id
+    sni: bakrie.ac.id.free.gegegeming.BIZ.id
     network: ws
     ws-opts:
-      path: /t.me/Inconigto_Mode/172.232.239.134/443
+      path: /Free/TG-at-XionAlva/172.235.251.7-587
       headers:
-        Host: inconigtovpn.web.id
+        Host: bakrie.ac.id.free.gegegeming.BIZ.id
     udp: true
-  - name: JagoanSSH²
+  - name: Jagoan² SSH
     server: 104.18.3.2
     port: 443
     type: trojan
-    password: jagoanssh-20ApriLlll
+    password: jagoanssh-Gssjjhh
     skip-cert-verify: true
     sni: id2go.ipservers.xyz
     network: ws
@@ -64,17 +207,3 @@ proxies:
       headers:
         Host: id2go.ipservers.xyz
     udp: true
-  - name: Digital Ocean
-    server: 104.18.3.2
-    port: 443
-    type: trojan
-    password: bd408b8d-bae4-4805-9bd6-d851a7a13344
-    skip-cert-verify: true
-    sni: inconigtovpn.web.id
-    network: ws
-    ws-opts:
-      path: /t.me/Inconigto_Mode/178.128.80.43/443
-      headers:
-        Host: inconigtovpn.web.id
-    udp: true
-    #20April
