@@ -1,0 +1,80 @@
+proxies:
+  - name: freevpn
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: 7772bb24-976a-45ca-aa76-f4f1b7f50923
+    skip-cert-verify: true
+    sni: v2-sg-1.v2s.top
+    network: ws
+    ws-opts:
+      path: /anything/freevpn.us-20Or21April/trojan
+      headers:
+        Host: v2-sg-1.v2s.top
+    udp: true
+  - name: JagoanSSH¹
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: jagoanssh-Biasasaja27
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id1go.ipservers.xyz
+    udp: true
+  - name: PT Pusat Media
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: 552ae7a4-dc92-4088-8a6b-26baa13a1b2e
+    skip-cert-verify: true
+    sni: inconigtovpn.web.id
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/103.6.207.108/8080
+      headers:
+        Host: inconigtovpn.web.id
+    udp: true
+  - name: Akamai ID
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: 9fdbea70-c4ba-4c0e-85b5-6c59848bfd62
+    skip-cert-verify: true
+    sni: inconigtovpn.web.id
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/172.232.239.134/443
+      headers:
+        Host: inconigtovpn.web.id
+    udp: true
+  - name: JagoanSSH²
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: jagoanssh-20ApriLlll
+    skip-cert-verify: true
+    sni: id2go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id2go.ipservers.xyz
+    udp: true
+  - name: Digital Ocean
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: bd408b8d-bae4-4805-9bd6-d851a7a13344
+    skip-cert-verify: true
+    sni: inconigtovpn.web.id
+    network: ws
+    ws-opts:
+      path: /t.me/Inconigto_Mode/178.128.80.43/443
+      headers:
+        Host: inconigtovpn.web.id
+    udp: true
+    #20April
